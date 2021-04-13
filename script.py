@@ -43,20 +43,3 @@ def write_to_file(file_name, modified_text, replace=False):
 if __name__ == '__main__':
     count, modified_text = tabs_to_spaces(space_count=2, file_name='test.py')
     write_to_file(file_name='test.py', modified_text=modified_text, replace=False)
-
-
-# a = '''
-# 	row1
-# 		row2
-# 	row3
-# 			row4		row4  row4
-# row5
-# 		row6
-# row7
-# 	row8
-# 				row9
-#
-#     row10
-#
-#
-# '''
