@@ -131,4 +131,3 @@ class IndentConverter:
 
         with open(self.file_name, 'w') as new_file:
             new_file.write(modified_text)
-

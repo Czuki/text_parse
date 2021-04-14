@@ -19,8 +19,8 @@ def create_parser():
 
 
 def convert():
+    """Main function for executing script"""
     parser, args = create_parser()
-    print(args)
     try:
         indent_conv = IndentConverter(
             file_name=args.file_name,
